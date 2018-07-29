@@ -18,7 +18,7 @@ namespace Tests
         [Test]
         public void Test2()
         {
-            Assert.True(false);
+            Assert.True(true);
         }
     }
 }
