@@ -1,1 +1,5 @@
-language: C#
+language: csharp
+script:
+  - ./build.sh
+  - ./test.sh
+  - grep "Test Results" build.log
